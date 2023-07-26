@@ -48,4 +48,4 @@ Mohammed "Asad" Bhimjee
 
 ## Preview
 
-![Preview](./images/ReactPort.png)
+![Preview](./public/images/ReactPort.png)
