@@ -6,7 +6,6 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Contact from './components/Contact';
-import Resume from './components/Resume'; 
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -23,7 +22,6 @@ export default function App() {
         {activeSection === 'about' && <About />}
         {activeSection === 'projects' && <Project />}
         {activeSection === 'contact' && <Contact />}
-        {activeSection === 'resume' && <Resume />} 
       </main>
       <Footer />
     </div>
