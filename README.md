@@ -21,7 +21,7 @@ N/A
 
 ## Usage
 
-View my portfolio [here](https://chartok.github.io/portfolio/).
+View my portfolio [here](https://chartok.github.io/my_portfolio/).
 
 ## Contributing
 
