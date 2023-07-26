@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
+import Project from './components/Projects';
+import About from './components/About';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import Resume from './components/Resume'; 
 
-function App() {
+export default function App() {
+  const [activeSection, setActiveSection] = useState('home');
+
+  const handleSectionChange = (section) => {
+    setActiveSection(section);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header activeSection={activeSection} onSectionChange={handleSectionChange} />
+      <main>
+        {activeSection === 'home' && <Home />}
+        {activeSection === 'about' && <About />}
+        {activeSection === 'projects' && <Project />}
+        {activeSection === 'contact' && <Contact />}
+        {activeSection === 'resume' && <Resume />} 
+      </main>
+      <Footer />
     </div>
   );
 }
-
-export default App;
