@@ -54,6 +54,12 @@ export default function Projects() {
             title: "Weatherly",
             description: "A weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. This app will use the OpenWeather API to retrieve weather data for cities. This app will also use localStorage to store any persistent data.",
             link: "https://chartok.github.io/weatherly/"
+        },
+        {
+            imgSrc: "images/goodEats.png",
+            title: "Good Eats",
+            description: "A simple recipe search engine that allows users to search for recipes by ingredients. This app was built with MERN architecture using GraphQL and Apollo for data handling and caching in conjunction with JWT for authentication.",
+            link: "https://good-eats-b2abe2613d0c.herokuapp.com/"
         }
     ];
 
