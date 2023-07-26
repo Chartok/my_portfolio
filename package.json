@@ -1,6 +1,8 @@
 {
   "name": "my_portfolio",
   "version": "0.1.0",
+  "description": "This is my portfolio",
+  "homepage": "https://www.chartok.github.io/my_portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
