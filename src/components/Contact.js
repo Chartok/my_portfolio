@@ -3,7 +3,8 @@ import React from 'react';
 export default function Contact() {
     return (
         <section className="contact" id="contact">
-            <h2 className="heading text-center">Contact <span>Me!</span></h2>
+            <h2 className="heading text-center">Send me an email at: <span>m.bhimjee@outlook.com</span></h2>
+            <p className="text-center">Or fill out the form below:</p>
             <form action="#">
                 <div className="form-group">
                     <input type="text" className="form-control" placeholder="First and Last Name" />
