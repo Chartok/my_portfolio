@@ -1,5 +1,5 @@
+import './Global.scss'
 import React, { useState } from 'react';
-import './App.css';
 import Header from './components/Header';
 import Project from './pages/Projects';
 import About from './pages/About';
