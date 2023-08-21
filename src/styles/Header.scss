@@ -1,0 +1,15 @@
+// Header styles
+header {
+    position: fixed;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    z-index: 100;
+
+    .navbar-brand {
+        font-size: 29px;
+        color: var(--text-color);
+        font-weight: 700;
+        cursor: default;
+    }
+}

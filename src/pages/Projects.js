@@ -1,8 +1,9 @@
 import React from "react";
+import "./styles/Projects.scss"
 
 const Project = ({ imgSrc, title, description, link }) => {
     return (
-        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div className="col-4 col-md-3 col-sm-1 mb-3">
             <div className="card">
                 <img src={imgSrc} className="card-img-top" alt={title} />
                 <div className="card-body">

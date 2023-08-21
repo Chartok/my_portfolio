@@ -1,0 +1,59 @@
+// Main container styles
+.container-fluid {
+    background: var(--second-bg-color);
+
+    h2 {
+        margin-bottom: 4rem;
+    }
+}
+
+span {
+    color: var(--main-color);
+}
+
+// Individual project card styles
+.card {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+    color: black;
+
+    .card-img-top {
+        width: 100%;
+        transition: 0.5s ease;
+    }
+
+    &:hover .card-img-top {
+        transform: scale(1.1);
+    }
+
+    .card-body {
+        padding: 2rem;
+
+        .card-title {
+            font-size: 2.35rem;
+        }
+
+        .card-text {
+            font-size: 1.25rem;
+            margin: 0.3rem 0 1rem;
+        }
+
+        a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 5rem;
+            height: 5rem;
+            background: var(--text-color);
+            border-radius: 50%;
+
+            i {
+                font-size: 16px;
+                color: var(--second-bg-color);
+            }
+        }
+    }
+}
