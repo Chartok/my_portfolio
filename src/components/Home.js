@@ -14,7 +14,7 @@ export default function Home() {
                         <a href="https://www.github.com/Chartok"><i className="bx bxl-github"></i></a>
                         <a href="https://dev.to/yaysa"><i className="bx bxl-dev-to"></i></a>
                     </div>
-                    <a href="https://drive.google.com/file/d/1B2nQJK7jAgKuQgXGjuWjpkor_nMXWiRR/view?usp=drive_link"
+                    <a href="https://drive.google.com/file/d/1vEiPs6Q05aiTqZq4xjDWfwXKViDHBu4U/view?usp=drivesdk"
                         className="btn">CV</a>
                 </div>
                 <div className="home-img">
