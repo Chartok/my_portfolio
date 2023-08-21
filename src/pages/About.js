@@ -1,10 +1,12 @@
 import React from 'react';
+import "../styles/About.scss"
+import selfie from '../images/selfie.png'
 
 export default function About() {
     return (
         <section className="about" id="about">
             <div className="about-img">
-                <img src="images/selfie.png" alt="mohammed bhimjee" />
+                <img src={selfie} alt="mohammed bhimjee" />
             </div>
 
             <div className="about-content">

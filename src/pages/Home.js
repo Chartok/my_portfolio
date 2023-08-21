@@ -1,5 +1,6 @@
 import React from "react";
-import "./styles/Home.scss"
+import "../styles/Home.scss"
+import selfie from '../images/selfie.png'
 
 export default function Home() {
     return (
@@ -19,7 +20,7 @@ export default function Home() {
                         className="btn">CV</a>
                 </div>
                 <div className="home-img">
-                    <img src="images/selfie.png" alt="mohammed bhimjee" />
+                    <img src={selfie} alt="mohammed bhimjee" />
                 </div>
             </section>
         </>
