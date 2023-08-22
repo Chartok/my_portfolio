@@ -10,8 +10,7 @@ export default function Home() {
                     <div className="home-content">
                         <h3>Hello, my name is</h3>
                         <h1><span>Asad Bhimjee</span></h1>
-                        <h3>And I'm a <span>Full Stack Developer</span></h3>
-                        <p>Discover my work, skills, and projects.</p>
+                        <p>As a <span><strong>versatile</strong></span> and <span><strong>dedicated</strong></span> developer, I blend expertise in common tech-stacks with a keen eye for design to build apps and websites that resonate.</p>
                     </div>
                 </div>
                 <div className="social">
