@@ -1,6 +1,6 @@
 // Navigation.js
 import React from 'react';
-import '../styles/Header.scss'
+// import '../styles/Header.scss'
 import "../styles/Navigation.scss"
 import { Nav } from 'react-bootstrap';
 
@@ -20,7 +20,7 @@ export default function Navigation({ activeSection, onSectionChange }) {
                     href={`#${section.id}`}
                     onClick={() => onSectionChange(section.id)}
                     active={activeSection === section.id}
-                    className='navbar-nav nav-link navbar-brand'
+                    className='navbar-nav nav-link'
                 >
                     {section.label}
                 </Nav.Link>
