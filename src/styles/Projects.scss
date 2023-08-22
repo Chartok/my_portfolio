@@ -1,58 +1,48 @@
-// Main container styles
-.container-fluid {
+.projects {
     background: var(--second-bg-color);
+    padding: 4rem 0;
 
-    h2 {
+    .heading {
+        text-align: center;
+        font-size: 28px;
         margin-bottom: 4rem;
     }
-}
 
-span {
-    color: var(--main-color);
-}
-
-// Individual project card styles
-.card {
-    position: relative;
-    border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
-    overflow: hidden;
-    display: flex;
-    color: black;
-
-    .card-img-top {
-        width: 100%;
-        transition: 0.5s ease;
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -1.5rem;
     }
 
-    &:hover .card-img-top {
-        transform: scale(1.1);
+    .col-lg-4,
+    .col-md-6,
+    .col-sm-12 {
+        padding: 0 1.5rem;
     }
 
-    .card-body {
-        padding: 2rem;
+    .card {
+        position: relative;
+        border-radius: 2rem;
+        box-shadow: 0 0 1rem var(--bg-color);
+        overflow: hidden;
+        display: flex;
+        color: black;
 
-        .card-title {
-            font-size: 2.35rem;
+        .card-img-top {
+            width: 100%;
+            transition: 0.5s ease;
         }
 
-        .card-text {
-            font-size: 1.25rem;
-            margin: 0.3rem 0 1rem;
-        }
+        .card-body {
+            padding: 2rem;
 
-        a {
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            width: 5rem;
-            height: 5rem;
-            background: var(--text-color);
-            border-radius: 50%;
+            .card-title {
+                font-size: 3rem;
+            }
 
-            i {
-                font-size: 16px;
-                color: var(--second-bg-color);
+            .card-text {
+                font-size: 1.6rem;
+                margin: 0.3rem 0 1rem;
             }
         }
     }

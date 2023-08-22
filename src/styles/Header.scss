@@ -1,15 +1,17 @@
 // Header styles
-.navbar {
+header {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     padding: 2rem 9%;
     background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     z-index: 100;
 
-    .navbar-brand {
-        font-size: 29px;
-        color: var(--text-color);
-        font-weight: 700;
-        cursor: default;
+    &.sticky {
+        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
     }
 }

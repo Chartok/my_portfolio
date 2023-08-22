@@ -1,8 +1,8 @@
 // Navigation.js
 import React from 'react';
 // import '../styles/Header.scss'
-import "../styles/Navigation.scss"
-import { Nav } from 'react-bootstrap';
+// import "../styles/Navigation.scss"
+// import { Nav } from 'react-bootstrap';
 
 export default function Navigation({ activeSection, onSectionChange }) {
     const sections = [
@@ -13,18 +13,17 @@ export default function Navigation({ activeSection, onSectionChange }) {
     ];
 
     return (
-        <>
+        <ul className='navbar-nav ml-auto'>
             {sections.map((section) => (
-                <Nav.Link
-                    key={section.id}
-                    href={`#${section.id}`}
-                    onClick={() => onSectionChange(section.id)}
-                    active={activeSection === section.id}
-                    className='navbar-nav nav-link'
-                >
-                    {section.label}
-                </Nav.Link>
+                <li className='nav-item' key={section.id}>
+                    <a href={`#${section.id}`}
+                        onClick={() => onSectionChange(section.id)}
+                        active={activeSection === section.id}
+                        className='nav-link'>
+                        {section.label}
+                    </a>
+                </li>
             ))}
-        </>
+        </ul>
     );
 }

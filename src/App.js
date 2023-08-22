@@ -1,4 +1,5 @@
 import './Global.scss'
+import 'font-awesome/css/font-awesome.min.css'
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Project from './pages/Projects';
