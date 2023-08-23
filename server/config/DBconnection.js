@@ -14,7 +14,7 @@ const connectToMongoDB = async () => {
         console.log('Attempting to connect to locally...');
 
         try {
-            await mongoose.connect('mongodb://localhost:27017/portfolio', options);
+            await mongoose.connect('mongodb+srv://admin:CZ7NNp8as4SpzLD@portfolio.jz7fbyj.mongodb.net/', options);
             console.log('Connected to local MongoDB');
         } catch (localError) {
             console.log('Failed to connect to locally...');
