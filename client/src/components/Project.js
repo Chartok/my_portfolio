@@ -10,7 +10,7 @@ export default function Project({ title, description, image, link }) {
                 <div className="card-body">
                     <h3 className="card-title">{title}</h3>
                     <p className="card-text">{description}</p>
-                    <a href={link} className="card-link">View Project</a>
+                    <a href={link} target="_blank" rel="noopener noreferrer" className="card-link">View Project</a>
                 </div>
             </div>
         </div>

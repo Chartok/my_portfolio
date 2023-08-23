@@ -14,12 +14,12 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="social">
-                    <a href="https://www.linkedin.com/in/mohammed-bhimjee/"><i className="bx bxl-linkedin"></i></a>
-                    <a href="https://www.github.com/Chartok"><i className="bx bxl-github"></i></a>
-                    <a href="https://dev.to/yaysa"><i className="bx bxl-dev-to"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammed-bhimjee/" target="_blank" rel="noopener noreferrer"><i className="bx bxl-linkedin"></i></a>
+                    <a href="https://www.github.com/Chartok" target="_blank" rel="noopener noreferrer"><i className="bx bxl-github"></i></a>
+                    <a href="https://dev.to/yaysa" target="_blank" rel="noopener noreferrer"><i className="bx bxl-dev-to"></i></a>
                 </div>
                 <div className="resume-link">
-                <a href="https://drive.google.com/file/d/1vEiPs6Q05aiTqZq4xjDWfwXKViDHBu4U/view?usp=drivesdk"
+                <a href="https://drive.google.com/file/d/1vEiPs6Q05aiTqZq4xjDWfwXKViDHBu4U/view?usp=drivesdk" target="_blank" rel="noopener noreferrer"
                     className="btn">My Resume</a>
                     </div>
                 <div className="home-img">
