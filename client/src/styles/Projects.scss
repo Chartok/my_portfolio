@@ -23,26 +23,40 @@
     .card {
         position: relative;
         border-radius: 2rem;
-        box-shadow: 0 0 1rem var(--bg-color);
+        box-shadow: 0 0 1rem var(--main-color);
         overflow: hidden;
         display: flex;
         color: black;
+        height: 400px;
 
         .card-img-top {
+            height: 200px;
             width: 100%;
             transition: 0.5s ease;
+            object-fit: cover;
         }
 
         .card-body {
             padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
 
             .card-title {
                 font-size: 3rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }
 
             .card-text {
                 font-size: 1.6rem;
                 margin: 0.3rem 0 1rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
             }
         }
     }

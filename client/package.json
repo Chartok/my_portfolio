@@ -2,7 +2,6 @@
   "name": "my_portfolio",
   "version": "0.1.0",
   "description": "This is my portfolio",
-  "homepage": "https://chartok.github.io/my_portfolio",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.5.8",

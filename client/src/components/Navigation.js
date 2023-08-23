@@ -18,7 +18,7 @@ export default function Navigation() {
                     <NavLink
                         to={section.path}
                         className='nav-link'
-                        activeclassName='active'>
+                        activeclassname='active'>
                         {section.label}
                     </NavLink>
                 </li>
