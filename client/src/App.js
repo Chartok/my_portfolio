@@ -4,6 +4,7 @@ import theme from './theme.js'
 import { ThemeProvider } from '@mui/material/styles';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
+import Navbar from './components/Navbar/Navbar.js'
 import About from './pages/About';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -15,7 +16,7 @@ export default function App() {
       <CssBaseLine />
       <Router>
         <div className='App'>
-          <Header />
+          <Header element={<Navbar />}/>
           <main>
             <Routes>
               <Route path='/' element={<Home />} />

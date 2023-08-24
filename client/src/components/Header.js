@@ -1,6 +1,6 @@
 // Header.js
 import React from 'react';
-import Navigation from './Navigation';
+import Navigation from './Navbar/Navbar';
 import '../styles/Header.scss';
 
 export default function Header() {
